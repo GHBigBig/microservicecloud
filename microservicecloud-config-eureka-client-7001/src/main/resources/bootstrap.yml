@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-eureka-client  #需要从 GitHub 上读取资源名称
+      profile: dev
+      label: master
+      uri: http://config3344.com:3344 # SpringCloudConfig 获取的服务地址
